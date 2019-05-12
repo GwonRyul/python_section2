@@ -5,6 +5,8 @@ import urllib.request as dw
 sys.stdout = io.TextIOWrapper(sys.stdout.detach(), encoding = 'utf-8')
 sys.stderr = io.TextIOWrapper(sys.stderr.detach(), encoding = 'utf-8')
 
+print('hi')
+
 imgUrl = "https://tvetamovie.pstatic.net/libs/1231/1231649/b2ddc5448c15ce15397a_20190327222457437.mp4-pBASE-v0-f77333-20190327222621086_1.mp4"
 htmlURL = "https://google.com"
 
